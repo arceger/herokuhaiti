@@ -5,19 +5,19 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <!--div class="card-header">{{ __('Dashboard') }}</!--div-->
 
-                <div class="card-body">
+                  <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
                     <div class="card">
-                <div class="card-header">{{ __('Cadastrar Usuarios') }}</div>
+                      <div class="card-header">{{ __('Cadastrar Usuarios') }}</div>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                       <div-- class="card-body">
+                       <form method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                <!--/div-->
             </div>
                 </div>
             </div>
