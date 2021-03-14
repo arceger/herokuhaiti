@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -69,6 +69,16 @@
                                 <input id="telefone" type="text" class="form-control" name="telefone" required autocomplete="telefone">
                             </div>
                         </div>
+
+                        <div class="form-group row">
+                            <label for="cidade" class="col-md-4 col-form-label text-md-right">{{ __('Cidade') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="cidade" type="text" class="form-control" name="cidade" required autocomplete="cidade">
+                            </div>
+                        </div>
+
+
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
