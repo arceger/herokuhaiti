@@ -20,7 +20,6 @@ class CreateEmpresasTable extends Migration
             $table->string('endereco');
             $table->string('cidade');
             $table->string('estado');
-            $table->string('estado');
             $table->string('email');
             $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
             $table->timestamps();
