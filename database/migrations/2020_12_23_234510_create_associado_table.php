@@ -19,7 +19,7 @@ class CreateAssociadoTable extends Migration
             $table->string('sobrenome');
             $table->string('endereco');
             $table->string('telefone');
-            $table->string('email');
+            $table->string('email')->unique();
             $table->string('telefone_rec');
             $table->string('cidade');
             $table->string('estado');
