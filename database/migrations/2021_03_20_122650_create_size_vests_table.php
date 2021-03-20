@@ -14,8 +14,13 @@ class CreateSizeVestsTable extends Migration
     public function up()
     {
         Schema::create('size_vests', function (Blueprint $table) {
-            $table->id();
+            $table->strrin('id');
+            $table->string('altura'); //aproximada
+            $table->string('cintura');
+            $table->string('busto');//manequin
+            $table->string('calcado');
             $table->timestamps();
+            $table->foreign('id')->references('id')->on('dependentes')->onDelete('cascade');
         });
     }
 

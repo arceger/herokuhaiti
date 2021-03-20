@@ -15,9 +15,10 @@ class CreateGruposTable extends Migration
     {
         Schema::create('grupos', function (Blueprint $table) {
             $table->id();
-            $table->string('çategoria');
-            $table->integer('nome_id')->unsigned();
-            $table->foreign('nome_id')->references('id')->on('associado')->onDelete('cascade');
+            $table->string('categoria'); //auxiliado auxiliador
+            $table->string('email');
+            $table->string('nome');
+            $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
            
         });
     }
