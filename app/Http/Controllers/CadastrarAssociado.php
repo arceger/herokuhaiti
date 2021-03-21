@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CadastarAssociado extends Controller
+class CadastrarAssociado extends Controller
 {
     public function  create(){
 
@@ -13,6 +13,10 @@ class CadastarAssociado extends Controller
 
     public function store (Request $request) {
 
+
+        dd($request->all());
+
+/*
         Associado::create([
 
         'nome' => $request->nome,
@@ -25,7 +29,7 @@ class CadastarAssociado extends Controller
         'estado' => $request -> estado,
         'description' => $request -> description,
         ]);
-
+*/
         return "Cadastrado com sucesso" ;
 
        // dd($request->all());
