@@ -24,6 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home2');
 //Route::get('/cadastrar', [App\Http\Controllers\HomeController::class, 'index3'])->name('cadastrar');
 
-Route::get('/cadastrar', [App\Http\Controllers\HomeController::class, 'create']); //->name('cadastrar_usr');
-Route::post('/cadastrar', [App\Http\Controllers\HomeController::class, 'store']); 
+Route::get('/cadastrar', [App\Http\Controllers\HomeController::class, 'create']); 
+Route::post('/cadastrar', [App\Http\Controllers\HomeController::class, 'store'])->name('cadastrar_usr');
 

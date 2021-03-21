@@ -46,9 +46,9 @@ class HomeController extends Controller
     public function store (Request $request) {
 
 
-        dd($request->all());
+       // dd($request->all());
 
-/*
+
         Associado::create([
 
         'nome' => $request->nome,
@@ -61,7 +61,7 @@ class HomeController extends Controller
         'estado' => $request -> estado,
         'description' => $request -> description,
         ]);
-*/
+
         return "Cadastrado com sucesso" ;
 
        
