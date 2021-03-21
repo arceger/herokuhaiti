@@ -8,7 +8,7 @@ class CadastarAssociado extends Controller
 {
     public function  create(){
 
-        return view ('home');
+        return view ('cadastrar');
     }
 
     public function store (Request $request) {
