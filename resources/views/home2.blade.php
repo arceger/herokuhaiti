@@ -17,7 +17,7 @@
                       <div class="card-header" align="center">{{ __('Continue seu Cadastro') }}</div>
 
                        <div-- class="card-body">
-                       <form method="POST" action="{{ route('cadastrar_usr') }}">
+                       <form method="POST" action="{{ route('home2') }}">
                         @csrf
 
 
