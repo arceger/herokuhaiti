@@ -20,5 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::post('/home', 'Associado@store')->name('Associado');
+Route::post('/home', [App\Http\Controllers\HomeController::class, 'CadastrarAssociado@create'])->name('home');
+//Route::post('/home', 'Associado@store')->name('Associado');
 
