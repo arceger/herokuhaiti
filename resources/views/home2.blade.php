@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center">{{ __('Continue seu Cadastro') }}</div>
+                      <div class="card-header" align="center">{{ __('Home2___Continue seu Cadastro') }}</div>
 
                        <div-- class="card-body">
                        <form method="POST" action="{{ route('home2') }}">
