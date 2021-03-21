@@ -28,6 +28,6 @@ class CadastarAssociado extends Controller
 
         return "Cadastrado com sucesso" ;
 
-        dd($request->all());
+       // dd($request->all());
     }
 }
