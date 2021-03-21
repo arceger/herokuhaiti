@@ -16,13 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return view('register');
-});
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('register');
 Route::post('/home', [App\Http\Controllers\HomeController::class, 'CadastrarAssociado@create'])->name('cadastrar_usr');
 //Route::post('/home', 'Associado@store')->name('Associado');
 
