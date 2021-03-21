@@ -33,7 +33,7 @@ class HomeController extends Controller
 
     public function index3()
     {
-        return view('cadastrar');
+        return view('home3');
     }
 
 }
