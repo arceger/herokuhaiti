@@ -20,8 +20,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('cadastrar');
-Route::post('/home', [App\Http\Controllers\HomeController::class, 'CadastrarAssociado@store'])->name('cadastrar_usr');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('cadastrar');
+//Route::post('/home', [App\Http\Controllers\HomeController::class, 'CadastrarAssociado@store'])->name('cadastrar_usr');
 //Route::post('/home', 'Associado@store')->name('Associado');
 
