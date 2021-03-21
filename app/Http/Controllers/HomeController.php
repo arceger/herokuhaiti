@@ -49,7 +49,7 @@ class HomeController extends Controller
        // dd($request->all());
 
 
-       Models.Associado::create([
+       CadastrarAssociado::create([
 
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,

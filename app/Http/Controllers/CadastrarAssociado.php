@@ -16,9 +16,9 @@ class CadastrarAssociado extends Controller
     public function store (Request $request) {
 
 
-        dd($request->all());
+        
 
-/*
+
         Associado::create([
 
         'nome' => $request->nome,
@@ -31,7 +31,7 @@ class CadastrarAssociado extends Controller
         'estado' => $request -> estado,
         'description' => $request -> description,
         ]);
-*/
+
         return "Cadastrado com sucesso" ;
 
        
