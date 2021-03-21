@@ -9,6 +9,8 @@ class CadastrarAssociado extends Controller
     public function  create(){
 
         return view ('cadastrar');
+
+       
     }
 
     public function store (Request $request) {
@@ -32,6 +34,6 @@ class CadastrarAssociado extends Controller
 */
         return "Cadastrado com sucesso" ;
 
-       // dd($request->all());
+       
     }
 }
