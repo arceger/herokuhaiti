@@ -18,6 +18,7 @@
 
                        <div-- class="card-body">
                        <!--form method="POST" action="{{ route('home2') }}"-->
+                       <form action="">
                         @csrf
 
 
