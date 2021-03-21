@@ -36,6 +36,8 @@ class HomeController extends Controller
         return view('cadastrar');
     }
 
+    /*
+
     public function  create(){
 
         return view ('cadastrar');
@@ -66,6 +68,6 @@ class HomeController extends Controller
 
        
     }
-
+*/
 
 }
