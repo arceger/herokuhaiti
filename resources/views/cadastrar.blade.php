@@ -128,6 +128,13 @@
                                 <input id="description" type="text" class="form-control" name="description" required autocomplete="description">
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="description" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="papel" type="text" class="form-control" name="papel" required autocomplete="papel">
+                            </div>
+                        </div>
                     
 
                         <div class="form-group row mb-0">

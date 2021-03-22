@@ -20,7 +20,7 @@ class CadastrarAssociado extends Controller
 
 
         Associado::create([
-
+        'id'==>$request->id,
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,
         'endereco' => $request->endereco,
@@ -30,6 +30,7 @@ class CadastrarAssociado extends Controller
         'cidade' => $request ->cidade,
         'estado' => $request -> estado,
         'description' => $request -> description,
+        'papel' => $request -> papel,
         ]);
 
         return "Cadastrado com sucesso" ;
