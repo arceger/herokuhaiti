@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\Associado;
+use App\Models\Associados;
 
 class CadastrarAssociado extends Controller
 {
@@ -21,7 +21,7 @@ class CadastrarAssociado extends Controller
         
 
 
-        Associado::create([
+        Associados::create([
         'id' => $request -> id,
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,
