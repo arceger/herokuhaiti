@@ -36,38 +36,5 @@ class HomeController extends Controller
         return view('cadastrar');
     }
 
-    /*
-
-    public function  create(){
-
-        return view ('cadastrar');
-
-       
-    }
-
-    public function store (Request $request) {
-
-
-       // dd($request->all());
-
-
-       CadastrarAssociado::create([
-
-        'nome' => $request->nome,
-        'sobrenome' => $request->sobrenome,
-        'endereco' => $request->endereco,
-        'telefone' => $request->telefone,
-        'email' => $request->email,
-        'telefone_rec' => $request ->telefone_rec,
-        'cidade' => $request ->cidade,
-        'estado' => $request -> estado,
-        'description' => $request -> description,
-        ]);
-
-        return "Cadastrado com sucesso" ;
-
-       
-    }
-*/
 
 }

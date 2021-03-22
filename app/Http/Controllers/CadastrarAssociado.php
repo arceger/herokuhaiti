@@ -19,7 +19,7 @@ class CadastrarAssociado extends Controller
         
 
 
-        CadastrarAssociado::create([
+        Associado::create([
 
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,
