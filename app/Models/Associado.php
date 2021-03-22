@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Associado extends Model
 {
     protected $fillable = ['id','nome','sobrenome','endereco','telefone','telefone_rec','cidade','estado','description','papel'];
-    use HasFactory;
+   // use HasFactory;
 }
