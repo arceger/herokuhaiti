@@ -21,6 +21,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function index3()
+    {
+        return view('cadastrar');
+    }
+
+
     public function index()
     {
         return view('home');
@@ -31,10 +37,7 @@ class HomeController extends Controller
         return view('home2');
     }
 
-    public function index3()
-    {
-        return view('cadastrar');
-    }
+   
 
 
 }
