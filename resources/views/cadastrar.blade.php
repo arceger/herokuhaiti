@@ -10,7 +10,7 @@
 <form action= "{{ route ( 'cadastrar_usr') }}" method = "POST">
 
 <laber for = ""> Nome </label> <br/>
-<input type= "text" name="nome"> <br/>
+<input type= "text" name="nome" value = "testst"> <br/>
 
 <laber for = ""> Sobre Nome </label> <br/>
 <input type= "text" name="sobrenome"> <br/>
