@@ -33,9 +33,9 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="nome" type="text" class="form-control @error('nome') is-invalid @enderror" name="nome" value="{{ old('name') }}" required autocomplete="nome" autofocus>
 
-                                @error('name')
+                                @error('nome')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -70,7 +70,7 @@
                             <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="name" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
+                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
 
                                 @error('telefone_rec')
                                     <span class="invalid-feedback" role="alert">
@@ -96,7 +96,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="endreco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
+                            <label for="endereco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
 
                             <div class="col-md-6">
                                 <input id="endereco" type="text" class="form-control @error('endereco') is-invalid @enderror" name="endereco" required autocomplete="endereco">
@@ -151,3 +151,7 @@
     </div>
 </div>
 @endsection
+
+
+
+(53736736, null, sobrenome, suhsuhshsjhs, 272927929287, null, null, hjhiugcykkuio, yuvuyy, uvyyyl, null, 
