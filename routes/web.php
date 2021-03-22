@@ -23,7 +23,7 @@ Auth::routes();
 
 //Route::get('/cadastrar', [App\Http\Controllers\HomeController::class, 'index3'])->name('cadastrar');
 
-Route::get('/cadastrar', [App\Models\Associado::class, 'create']); 
+//Route::get('/cadastrar', [App\Models\Associado::class, 'create']); 
 Route::post('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'store'])->name('cadastrar_usr');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home2');
