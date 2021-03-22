@@ -14,11 +14,10 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center">{{ __('Pagina Cadastro---Continue seu Cadastro') }}</div>
+                      <div class="card-header" align="center">{{ __('Continue seu Cadastro') }}</div>
 
                        <div-- class="card-body">
                        <form method="POST" action="{{ route('cadastrar_usr') }}">
-                      
                         @csrf
 
 
@@ -145,5 +144,4 @@
         </div>
     </div>
 </div>
-@endsection @enderror
-                     
+@endsection
