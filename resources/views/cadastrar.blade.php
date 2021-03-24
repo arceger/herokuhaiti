@@ -135,10 +135,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</label>
+                            <!--label-- for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</!--label-->
 
                             <div class="col-md-6">
-                                <input id="papel" type="text" class="form-control" name="papel" >
+                                <input id="papel" type="hidden" value = "usuario" class="form-control" name="papel" >
                             </div>
                         </div>
                     
