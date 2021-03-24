@@ -22,7 +22,7 @@ class CadastrarAssociado extends Controller
 
 
         Associados::create([
-        'id' => $request -> id,
+       // 'id' => $request -> id,
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,
         'endereco' => $request->endereco,
