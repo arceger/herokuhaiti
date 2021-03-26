@@ -17,7 +17,7 @@
                       <div class="card-header" align="center">{{ __('Agora seus Dependentes') }}</div>
 
                        <div-- class="card-body">
-                       <form method="POST" action="{{ route('cadastrar_dep') }}">
+                       <form method="POST" action="{{ route('cadastrar_usr') }}">
                         @csrf
 
                         <!--div-- class="form-group row">
