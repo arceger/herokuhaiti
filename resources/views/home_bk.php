@@ -17,25 +17,19 @@
                       <div class="card-header" align="center">{{ __('Continue seu Cadastro') }}</div>
 
                        <div-- class="card-body">
-                       <form method="POST" action="{{ route('cadastrar_usr') }}">
+                       <form method="POST" action="{{ route('register') }}">
                         @csrf
 
-                        <!--div-- class="form-group row">
-                            <label for="id" class="col-md-4 col-form-label text-md-right">{{ __('RG') }}</label>
 
-                            <div class="col-md-6">
-                                <input id="id" type="text" class="form-control" maxlength = "04"  name="id" required autocomplete="id">
-                            </div>
-                        </!--div-->
 
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nome" type="text" class="form-control @error('nome') is-invalid @enderror" name="nome" value="{{ old('name') }}" required autocomplete="nome" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                @error('nome')
+                                @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -70,7 +64,7 @@
                             <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
+                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="name" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
 
                                 @error('telefone_rec')
                                     <span class="invalid-feedback" role="alert">
@@ -96,7 +90,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="endereco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
+                            <label for="endreco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
 
                             <div class="col-md-6">
                                 <input id="endereco" type="text" class="form-control @error('endereco') is-invalid @enderror" name="endereco" required autocomplete="endereco">
@@ -131,14 +125,6 @@
 
                             <div class="col-md-6">
                                 <input id="description" type="text" class="form-control" name="description" required autocomplete="description">
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <!--label-- for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</!--label-->
-
-                            <div class="col-md-6">
-                                <input id="papel" type="hidden" value = "usuario" class="form-control" name="papel" >
                             </div>
                         </div>
                     
