@@ -35,7 +35,7 @@ class CadastrarAssociado extends Controller
         'papel' => $request -> papel,
         ]);
 
-        return "Cadastrado com sucesso" ;
+        return view ('cadastrar');
 
        
     }
