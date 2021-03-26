@@ -14,10 +14,10 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center">{{ __('Continue seu Cadastro') }}</div>
+                      <div class="card-header" align="center">{{ __('Agora seus Dependentes') }}</div>
 
                        <div-- class="card-body">
-                       <form method="POST" action="{{ route('cadastrar_usr') }}">
+                       <form method="POST" action="{{ route('cadastrar_dep') }}">
                         @csrf
 
                         <!--div-- class="form-group row">
@@ -30,7 +30,7 @@
 
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome do Dependente') }}</label>
 
                             <div class="col-md-6">
                                 <input id="nome" type="text" class="form-control @error('nome') is-invalid @enderror" name="nome" value="{{ old('name') }}" required autocomplete="nome" autofocus>
@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="sobrenome" class="col-md-4 col-form-label text-md-right">{{ __('Sobre Nome') }}</label>
+                            <label for="sobrenome" class="col-md-4 col-form-label text-md-right">{{ __('Sobre Nome Dependente') }}</label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="sobrenome" value="{{ old('sobrenome') }}" required autocomplete="sobrenome" autofocus>
@@ -56,30 +56,6 @@
                                 @enderror
                             </div>
                         </div>
-
-                        <div class="form-group row">
-                            <label for="telefone" class="col-md-4 col-form-label text-md-right">{{ __('Telefone') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="telefone" type="text" class="form-control" name="telefone" required autocomplete="telefone">
-                            </div>
-                        </div>
-
-
-                        <div class="form-group row">
-                            <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
-
-                                @error('telefone_rec')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
@@ -95,35 +71,23 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
-                            <label for="endereco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="endereco" type="text" class="form-control @error('endereco') is-invalid @enderror" name="endereco" required autocomplete="endereco">
-
-                                @error('endereco')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+       
 
                         
 
                         <div class="form-group row">
-                            <label for="cidade" class="col-md-4 col-form-label text-md-right">{{ __('Cidade') }}</label>
+                            <label for="idade" class="col-md-4 col-form-label text-md-right">{{ __('Idade') }}</label>
 
                             <div class="col-md-6">
-                                <input id="cidade" type="text" class="form-control" name="cidade" required autocomplete="cidade">
+                                <input id="idade" type="text" class="form-control" name="idade" required autocomplete="idade">
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="estado" class="col-md-4 col-form-label text-md-right">{{ __('Estado') }}</label>
+                            <label for="tipo_dep" class="col-md-4 col-form-label text-md-right">{{ __('Tipo de Dependente') }}</label>
 
                             <div class="col-md-6">
-                                <input id="estado" type="text" class="form-control" name="estado" required autocomplete="estado">
+                                <input id="tipo_dep" type="text" class="form-control" name="tipo_dep" required autocomplete="tipo_dep">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -135,10 +99,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <!--label-- for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</!--label-->
+                            <label for="genero" class="col-md-4 col-form-label text-md-right">{{ __('Genero') }}</label>
 
                             <div class="col-md-6">
-                                <input id="papel" type="hidden" value = "usuario" class="form-control" name="papel" >
+                                <input id="genero" type="text"  class="form-control" name="genero" >
                             </div>
                         </div>
                     
