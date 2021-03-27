@@ -7,20 +7,20 @@ use App\Models\Dependentes;
 
 class CadastrarDepend extends Controller
 {
-    public function  create(){
+    public function  create1(){
 
         return view ('caddep');
 
        
     }
 
-    public function store (Request $request) {
+    public function store1 (Request $request) {
 
 
         
 
 
-        Dependentes::create([
+        Dependentes::create1([
         'nome' => $request->nome,
         'sobrenome' => $request->sobrenome,
         'idade' => $request ->idade,
