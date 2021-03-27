@@ -54,7 +54,7 @@
                             <label for="telefone" class="col-md-4 col-form-label text-md-right">{{ __('Telefone') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone" type="tel" placehold= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15" class="form-control" name="telefone" required autocomplete="telefone">
+                                <input id="telefone" type="tel" placeholder= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15" class="form-control" name="telefone" required autocomplete="telefone">
                             </div>
                         </div>
 
@@ -63,7 +63,7 @@
                             <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone_rec" type="tel" placehold= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15"  class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
+                                <input id="telefone_rec" type="tel" placeholder= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15"  class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
 
                                 @error('telefone_rec')
                                     <span class="invalid-feedback" role="alert">
