@@ -23,10 +23,10 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome Completo') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nome" type="text" maxlength = "50" class="form-control @error('nome') is-invalid @enderror" name="nome" value = "{{ Auth::user()->name }}"  readonly required autocomplete="nome" autofocus>
+                                <input id="nome" type="text" class="form-control @error('nome') is-invalid @enderror" name="nome" value = "{{ Auth::user()->name }}"  readonly required autocomplete="nome" autofocus>
 
                                 @error('nome')
                                     <span class="invalid-feedback" role="alert">
@@ -37,12 +37,12 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="sobrenome" class="col-md-4 col-form-label text-md-right">{{ __('Sobre Nome') }}</label>
+                            <label for="ecivil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" maxlength = "50" class="form-control @error('name') is-invalid @enderror" name="sobrenome" value="{{ old('sobrenome') }}" required autocomplete="sobrenome" autofocus>
+                                <input id="ecivil" type="text" maxlength = "50" class="form-control @error('name') is-invalid @enderror" name="ecivil" value="{{ old('ecivil') }}" required autocomplete="ecivil" autofocus>
 
-                                @error('sobrenome')
+                                @error('ecivil')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -54,7 +54,7 @@
                             <label for="telefone" class="col-md-4 col-form-label text-md-right">{{ __('Telefone') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone" type="tel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15" class="form-control" name="telefone" required autocomplete="telefone">
+                                <input id="telefone" type="tel" placehold= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15" class="form-control" name="telefone" required autocomplete="telefone">
                             </div>
                         </div>
 
@@ -63,7 +63,7 @@
                             <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone_rec" type="tel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15"  class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
+                                <input id="telefone_rec" type="tel" placehold= "ex (47) 12345-6789" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15"  class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
 
                                 @error('telefone_rec')
                                     <span class="invalid-feedback" role="alert">
@@ -78,7 +78,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email"  maxlength="30" class="form-control @error('email') is-invalid @enderror" name="email"  required autocomplete="email">
+                                <input id="email" type="email" value = "{{ Auth::user()->email }}"  readonly class="form-control @error('email') is-invalid @enderror" name="email"  required autocomplete="email">
                                 
                                 
                                 
