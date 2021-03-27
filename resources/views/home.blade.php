@@ -85,9 +85,9 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="email">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" <?php $email= $_POST['email']?> required autocomplete="email">
                                 
-                                $email= $_POST['email'];
+                                
                                 
                             
                                 @error('email')
