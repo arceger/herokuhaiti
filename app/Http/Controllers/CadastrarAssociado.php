@@ -34,8 +34,7 @@ class CadastrarAssociado extends Controller
         'estado' => $request -> estado,
         'description' => $request -> description,
         'papel' => $request -> papel,
-        'email'=>$email
-
+        $email =>'email'
 
         ]);
 
