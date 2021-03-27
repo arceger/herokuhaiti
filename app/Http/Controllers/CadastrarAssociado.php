@@ -34,9 +34,16 @@ class CadastrarAssociado extends Controller
         'estado' => $request -> estado,
         'description' => $request -> description,
         'papel' => $request -> papel,
+$assoc =[
+
+    'email'=>$email
+]
+
         ]);
 
-        return view ('caddep');
+       
+
+        return view ('caddep',$assoc);
 
         echo 'email';
 
