@@ -40,9 +40,9 @@
                             <label for="ecivil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
 
                             <div class="col-md-6">
-                                <input id="ecivil" type="text" maxlength = "50" class="form-control @error('name') is-invalid @enderror" name="ecivil" value="{{ old('ecivil') }}" required autocomplete="ecivil" autofocus>
+                                <input id="sobrenome" type="text" maxlength = "50" class="form-control @error('sobrenome') is-invalid @enderror" name="sobrenome" value="{{ old('ecivil') }}" required autocomplete="sobrenome" autofocus>
 
-                                @error('ecivil')
+                                @error('sobrenome')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
