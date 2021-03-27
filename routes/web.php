@@ -25,7 +25,7 @@ Auth::routes();
 
 Route::get('/caddep', [App\Http\Controllers\CadastrarDepend::class, 'create']); 
 Route::post('/caddep', [App\Http\Controllers\CadastrarDepend::class, 'store'])->name('cadastrar_dep');
-Route::get('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'create']); 
-Route::post('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'store'])->name('cadastrar_usr');
+//Route::get('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'create']); 
+//Route::post('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'store'])->name('cadastrar_usr');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home2');
