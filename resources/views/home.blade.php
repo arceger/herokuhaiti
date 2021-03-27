@@ -24,7 +24,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nome" type="text" maxlength = "50" class="form-control @error('nome') is-invalid @enderror" name="nome" value = "{{ $name }}" required autocomplete="nome" autofocus>
+                                <input id="nome" type="text" maxlength = "50" class="form-control @error('nome') is-invalid @enderror" name="nome" required autocomplete="nome" autofocus>
 
                                 @error('nome')
                                     <span class="invalid-feedback" role="alert">
