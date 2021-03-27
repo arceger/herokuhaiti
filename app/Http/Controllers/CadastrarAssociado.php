@@ -12,6 +12,8 @@ class CadastrarAssociado extends Controller
 
         return view ('cadastrar');
 
+        echo 'email';
+
        
     }
 
