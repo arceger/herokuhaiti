@@ -12,8 +12,7 @@ class CadastrarAssociado extends Controller
 
         return view ('cadastrar');
 
-        echo 'email';
-
+     
        
     }
 
@@ -38,6 +37,9 @@ class CadastrarAssociado extends Controller
         ]);
 
         return view ('caddep');
+
+        echo 'email';
+
 
        
     }
