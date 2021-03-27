@@ -24,9 +24,9 @@ class HomeController extends Controller
     public function index()
 
     {
-        $name='name';
+
         
-        return view('home',$name);
+        return view('home');
     }
 /*$
     public function index3()
