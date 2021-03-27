@@ -87,7 +87,7 @@
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="email">
                                 <?php
-                                $mailValue = $_GET['email'];
+                                $mailValue = $_GET('email');
                                 
                                 ?>
                                 @error('email')
