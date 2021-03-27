@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center"> echo "{{Auth::user()->name}}" </div>
+                      <div class="card-header" align="center"> Continue Seu Cadastro Sr: {{Auth::user()->name}} </div>
 
                    
 
