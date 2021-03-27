@@ -22,7 +22,6 @@ class CadastrarDepend extends Controller
 
         Dependentes::create([
         'nome' => $request->nome,
-        'sobrenome' => $request->sobrenome,
         'email' => $request->email,
         'idade' => $request ->idade,
         'genero' => $request ->genero,
