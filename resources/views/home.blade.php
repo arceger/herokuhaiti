@@ -33,7 +33,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nome" type="text" class="form-control @error('nome') is-invalid @enderror" name="nome" value="{{ old('name') }}" required autocomplete="nome" autofocus>
+                                <input id="nome" type="text" maxlength = "50" class="form-control @error('nome') is-invalid @enderror" name="nome" value="{{ $name }}" required autocomplete="nome" autofocus>
 
                                 @error('nome')
                                     <span class="invalid-feedback" role="alert">
@@ -47,7 +47,7 @@
                             <label for="sobrenome" class="col-md-4 col-form-label text-md-right">{{ __('Sobre Nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="sobrenome" value="{{ old('sobrenome') }}" required autocomplete="sobrenome" autofocus>
+                                <input id="name" type="text" maxlength = "50" class="form-control @error('name') is-invalid @enderror" name="sobrenome" value="{{ old('sobrenome') }}" required autocomplete="sobrenome" autofocus>
 
                                 @error('sobrenome')
                                     <span class="invalid-feedback" role="alert">
@@ -61,7 +61,7 @@
                             <label for="telefone" class="col-md-4 col-form-label text-md-right">{{ __('Telefone') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone" type="text" class="form-control" name="telefone" required autocomplete="telefone">
+                                <input id="telefone" type="tel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15" class="form-control" name="telefone" required autocomplete="telefone">
                             </div>
                         </div>
 
@@ -70,7 +70,7 @@
                             <label for="telefone_rec" class="col-md-4 col-form-label text-md-right">{{ __('Telefone Recado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="telefone_rec" type="text" class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
+                                <input id="telefone_rec" type="tel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" maxlength="15"  class="form-control @error('telefone_rec') is-invalid @enderror" name="telefone_rec" value="{{ old('telefone_rec') }}" required autocomplete="telefone_rec" autofocus>
 
                                 @error('telefone_rec')
                                     <span class="invalid-feedback" role="alert">
@@ -85,7 +85,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email"  required autocomplete="email">
+                                <input id="email" type="email"  maxlength="30" class="form-control @error('email') is-invalid @enderror" name="email"  required autocomplete="email">
                                 
                                 
                                 
@@ -102,7 +102,7 @@
                             <label for="endereco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
 
                             <div class="col-md-6">
-                                <input id="endereco" type="text" class="form-control @error('endereco') is-invalid @enderror" name="endereco" required autocomplete="endereco">
+                                <input id="endereco" type="text" maxlength="150" class="form-control @error('endereco') is-invalid @enderror" name="endereco" required autocomplete="endereco">
 
                                 @error('endereco')
                                     <span class="invalid-feedback" role="alert">
@@ -115,7 +115,7 @@
                         
 
                         <div class="form-group row">
-                            <label for="cidade" class="col-md-4 col-form-label text-md-right">{{ __('Cidade') }}</label>
+                            <label for="cidade" maxlength="25" class="col-md-4 col-form-label text-md-right">{{ __('Cidade') }}</label>
 
                             <div class="col-md-6">
                                 <input id="cidade" type="text" class="form-control" name="cidade" required autocomplete="cidade">
@@ -126,14 +126,14 @@
                             <label for="estado" class="col-md-4 col-form-label text-md-right">{{ __('Estado') }}</label>
 
                             <div class="col-md-6">
-                                <input id="estado" type="text" class="form-control" name="estado" required autocomplete="estado">
+                                <input id="estado" type="text" maxlength="02"  class="form-control" name="estado" required autocomplete="estado">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="description" class="col-md-4 col-form-label text-md-right">{{ __('Sobre') }}</label>
 
                             <div class="col-md-6">
-                                <input id="description" type="text" class="form-control" name="description" required autocomplete="description">
+                                <input id="description" type="text" maxlength="500" class="form-control" name="description" required autocomplete="description">
                             </div>
                         </div>
 
