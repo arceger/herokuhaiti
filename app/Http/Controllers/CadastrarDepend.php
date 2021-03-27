@@ -9,7 +9,7 @@ class CadastrarDepend extends Controller
 {
     public function  create(){
 
-        return view ('cadastrar');
+        return view ('caddep');
 
        
     }
