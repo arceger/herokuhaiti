@@ -14,7 +14,9 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center">{{ __('Continue seu Cadastro Sr: {{Auth::user()->name}} ' )  }}</div>
+                      <div class="card-header" align="center">{{Auth::user()->name}} </div>
+
+                      //{{ __('Continue seu Cadastro Sr: {{Auth::user()->name}} ' )  }}
 
                        <div-- class="card-body">
                        <form method="POST" action="{{ route('cadastrar_usr') }}">
