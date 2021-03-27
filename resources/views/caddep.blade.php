@@ -63,7 +63,9 @@
                             <!--label-- for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</!--label-->
 
                             <div class="col-md-6">
-                                <input id="email" type="hidden" value="{{ $email }}"  class="form-control" name="email" >
+                                <input id="email" type="hidden"  class="form-control"  value="{{ $mailValue }}" name="email" >
+                             
+
                             </div>
                         </div>
 
