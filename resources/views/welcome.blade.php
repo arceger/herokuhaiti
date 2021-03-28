@@ -238,7 +238,8 @@ Suporte a Pressão, por amor a CRISTO.
 		</div>									
 	</footer>
 
-    @push('scripts')
+
+
     <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
@@ -257,6 +258,5 @@ Suporte a Pressão, por amor a CRISTO.
 		.init();
 	</script>	
 
-@endpush
   </body>
 </html>
