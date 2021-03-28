@@ -15,19 +15,35 @@
 	<link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet" /-->
 
+
+    @push('styles')
+
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/overwrite.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
-    
-
-	<link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
+    <link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
+    @endpush
 
   </head>
-  <body>	
+  <body>
+      
+  <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+            @if (Route::has('login'))
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                    @else
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
 	<header id="header">
         <nav class="navbar navbar-fixed-top" role="banner">
             <div class="container">
@@ -234,7 +250,7 @@ Suporte a Pressão, por amor a CRISTO.
 		</div>									
 	</footer>
 
-    
+    @push('scripts')
     <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
@@ -252,5 +268,7 @@ Suporte a Pressão, por amor a CRISTO.
 		}	) 
 		.init();
 	</script>	
+
+@endpush
   </body>
 </html>
