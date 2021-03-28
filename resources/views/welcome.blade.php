@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" /-->
 
 
@@ -23,7 +24,7 @@
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/overwrite.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
-    <!--link href="{{ asset('css/style.css') }}" rel="stylesheet"-->
+    
     <link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
     @endpush
 
