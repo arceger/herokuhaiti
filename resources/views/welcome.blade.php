@@ -8,13 +8,24 @@
     <title>Comunidade Haitiana</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="css/animate.min.css" rel="stylesheet"> 
-	<link href="css/style.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="img/logo.jpeg"/>	
+	<link href="css/style.css" rel="stylesheet" /-->
+
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/overwrite.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+    
+
+	<link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
+
   </head>
   <body>	
 	<header id="header">
@@ -222,15 +233,18 @@ Suporte a Pressão, por amor a CRISTO.
        
 		</div>									
 	</footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.1.1.min.js"></script>		
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>	
-	<script src="js/parallax.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
-	<script src="js/functions.js"></script>
+
+    
+    <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/fliplightbox.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>
+    
+
+
 	<script>
 	wow = new WOW(
 	 {
