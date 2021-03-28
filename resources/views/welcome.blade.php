@@ -22,6 +22,7 @@
     <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/fliplightbox.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>
+    <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" /-->
 
 
@@ -31,7 +32,7 @@
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/overwrite.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
+    
     
     
     @endpush
