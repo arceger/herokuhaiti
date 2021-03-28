@@ -15,6 +15,7 @@
 	<link href="css/animate.min.css" rel="stylesheet"> 
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
+     <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
 	<link href="css/style.css" rel="stylesheet" /-->
 
 
@@ -240,7 +241,7 @@ Suporte a Pressão, por amor a CRISTO.
 
 
 
-    <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
+   
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
