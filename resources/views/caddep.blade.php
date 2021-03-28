@@ -57,7 +57,7 @@
                             <label for="tipo_dep" class="col-md-4 col-form-label text-md-right">{{ __('Tipo de Dependente') }}</label>
 
                             <div class="col-md-6">
-                            <select id="tipo_dep">
+                            <select id="tipo_dep" name="tipo_dep" class="form-control" >
                                  <option value="nao informado" selected >Selecione</option>
                                  <option value="conjuge">Conjuge</option>
                                  <option value="filho">Filho(a)</option>
@@ -70,7 +70,7 @@
                             <label for="genero" class="col-md-4 col-form-label text-md-right">{{ __('Genero') }}</label>
 
                             <div class="col-md-6">
-                            <select id="genero">
+                            <select id="genero" name="genero" class="form-control" >
                                  <option value="nao informado" selected >Selecione</option>
                                  <option value="masculino">Masculino</option>
                                  <option value="feminino">Feminino</option>

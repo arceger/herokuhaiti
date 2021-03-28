@@ -40,8 +40,12 @@
                             <label for="ecivil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
 
                             <div class="col-md-6">
-                                <input id="sobrenome" type="text" maxlength = "50" class="form-control @error('sobrenome') is-invalid @enderror" name="sobrenome" value="{{ old('ecivil') }}" required autocomplete="sobrenome" autofocus>
-
+                            <select id="sobrenome" name="sobrenome" class="form-control" >
+                                 <option value="nao informado" selected >Selecione</option>
+                                 <option value="conjuge">Casado</option>
+                                 <option value="filho">Solteiro</option>
+                                
+                            </select>
                                 @error('sobrenome')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
