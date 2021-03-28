@@ -58,7 +58,7 @@
 
                             <div class="col-md-6">
                             <select id="tipo_dep">
-                                 <option value="">Selecione</option>
+                                 <option value="nao informado" selected >Selecione</option>
                                  <option value="conjuge">Conjuge</option>
                                  <option value="filho">Filho(a)</option>
                                  <option value="tutor">Tutor</option>
@@ -71,7 +71,7 @@
 
                             <div class="col-md-6">
                             <select id="genero">
-                                 <option value="">Selecione</option>
+                                 <option value="nao informado" selected >Selecione</option>
                                  <option value="masculino">Masculino</option>
                                  <option value="feminino">Feminino</option>
                                  
