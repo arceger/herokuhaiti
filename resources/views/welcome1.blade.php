@@ -9,13 +9,13 @@
 
     <!-- Bootstrap -->
 
-    <img src="{{ asset('img/logo.jpeg') }}" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/logo.jpeg"/>
 
     
 
@@ -39,10 +39,10 @@
 							
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="http://newadm.mybluemix.net">Home</a></li>
+                        <li class="active"><a href="{{ url('/home') }}">Home</a></li>
                         
-                        <li><a href="#gallery">Fotos</a></li>
-                        <!--li--><a href="#our-team">Liderança</a></li--> 
+                        <li><a href="{{ route('login') }}" >login</a></li>
+                        <li><a href="{{ route('register') }}">Register</a></li> 
                         <!--li--><a href="login.html">Login</a></li-->                        
                   </ul>
               </div>
