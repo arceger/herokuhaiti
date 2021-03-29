@@ -26,16 +26,17 @@
 	<link href="css/style.css" rel="stylesheet" /-->
 
 
-    @push('styles')
+    
 
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/overwrite.css') }}" rel="stylesheet">
+    <link href="{{HTML::style('css/bootstrap.min.css'); }}" rel="stylesheet">
+    <link href="{{ HTML::style('css/font-awesome.min.css'); }}" rel="stylesheet">
+    <link href="{{ HTML::style('css/animate.css'); }}" rel="stylesheet">
+    <link href="{{ HTML::style('css/overwrite.css'); }}" rel="stylesheet">
+    <link href="{{ HTML::style('css/animate.min.css); }}" rel="stylesheet">
     
     
     
-    @endpush
+    
 
   </head>
   <body>
