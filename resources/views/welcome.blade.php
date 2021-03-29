@@ -8,6 +8,8 @@
     <title>Comunidade Haitiana</title>
 
     <!-- Bootstrap -->
+
+    <img src="{{ asset('img/logo.jpeg') }}" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -58,8 +60,10 @@
 				</ol>
 
 				<div class="carousel-inner">
-					<div class="item active">						
-						<img src="img/pref.jpeg" class="img-responsive" alt=""> 
+					<div class="item active">	
+                        
+                    <img src="{{ asset('img/pref.jpeg') }}" class="img-responsive" alt=""/>
+						<!--img src="img/pref.jpeg" class="img-responsive" alt=""--> 
 						<div class="carousel-caption">
 							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s"></div>
 							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
