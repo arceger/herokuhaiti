@@ -28,11 +28,13 @@
 
     
 
-    {{URL::asset 'css/bootstrap.min.css' }}
-    {{ HTML::style('css/font-awesome.min.css'); }}
-    <link href="{{ HTML::style('css/animate.css'); }}" rel="stylesheet">
-    <link href="{{ HTML::style('css/overwrite.css'); }}" rel="stylesheet">
-    <link href="{{ HTML::style('css/animate.min.css); }}" rel="stylesheet">
+    {{URL::asset 'css/bootstrap.min.css'}}
+    {{ HTML::style 'css/font-awesome.min.css'}}
+
+
+    <link href="{{ HTML::style 'css/animate.css'}}" rel="stylesheet">
+    <link href="{{ HTML::style 'css/overwrite.css'}}" rel="stylesheet">
+    <link href="{{ HTML::style 'css/animate.min.css'}}" rel="stylesheet">
     
     
     
