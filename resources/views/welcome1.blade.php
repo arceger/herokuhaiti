@@ -33,7 +33,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand">Unidos seremos Fortes</a>
+                    <a class="navbar-brand">Unidos e Fortes</a>
                   
                 </div>
 							
