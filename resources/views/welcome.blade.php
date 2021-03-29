@@ -8,36 +8,13 @@
     <title>Comunidade Haitiana</title>
 
     <!-- Bootstrap -->
-    <!--link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ asset('img/logo.jpeg') }}"/>
-     <script type="text/javascript" src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
-       <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/fliplightbox.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>
-    <link href="{{ asset('css/animate.min.css) }}" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" /-->
+	<link href="css/style.css" rel="stylesheet" />
 
-
-    
-
-    URL::asset ('css/bootstrap.min.css')
-    {{ HTML::style 'css/font-awesome.min.css'}}
-
-
-    <link href="{{ HTML::style 'css/animate.css'}}" rel="stylesheet">
-    <link href="{{ HTML::style 'css/overwrite.css'}}" rel="stylesheet">
-    <link href="{{ HTML::style 'css/animate.min.css'}}" rel="stylesheet">
-    
-    
-    
     
 
   </head>
