@@ -100,7 +100,7 @@
                                  
                             </select>
                             </div>
-                            <!--input id="id" type="hidden"  class="form-control" name="id" value = "{{$id}}"-->
+                           
                     
 
                         <div class="form-group row mb-0">
