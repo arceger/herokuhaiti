@@ -31,7 +31,7 @@ class CadastrarDepend extends Controller
         ]);
 
         Escolaridade::create([
-            'id' => $request -> id,
+            'id' => $id,
             'email' => $request->email,
             'grau_inst' => $request -> grau_inst,
             'escola_atual'=> $request ->escola_atual,
