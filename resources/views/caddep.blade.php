@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-16">
             <!--div class="card"-->
                 <!--div class="card-header">{{ __('Dashboard') }}</!--div-->
 
@@ -17,7 +17,7 @@
                     <div class="card">
                       <div class="card-header" align="center">{{ __('Agora seus Dependentes') }}</div>
 
-                       <div-- class="card-body">
+                       <div class="card-body">
                        <form method="POST" action="{{ route('cadastrar_dep') }}">
                         @csrf
 
@@ -99,6 +99,8 @@
                                  <option value="Pos Graduado">Pos Graduado</option>   
                             </select>
                             </div> 
+
+                            <div class="card-header" align="center">{{ __('Saude') }}</div>
                            
                             <div class="form-group row">
                             <label for="vacinas_st" class="col-md-4 col-form-label text-md-right">{{ __('Estatus Vacinação') }}</label>
@@ -125,11 +127,13 @@
                             </div>
                             </div>
 
+                            <div class="card-header" align="center">{{ __('Vestuario Medidas') }}</div>
+
                             <div class="form-group row">
                             <label for="altura" class="col-md-4 col-form-label text-md-right">{{ __('Altura') }}</label>
 
                             <div class="col-md-6">
-                                <input id="altura" type="tel" maxlength = "02" class="form-control" name="altura" required autocomplete="altura">
+                                <input id="altura" type="tel" maxlength = "04" class="form-control" name="altura" required autocomplete="altura">
                             </div>
                             </div>
 
