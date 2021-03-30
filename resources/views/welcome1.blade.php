@@ -187,7 +187,7 @@ Suporte a Pressão, por amor a CRISTO.
 		<div class="container">
 			<div class="text-center">
 				<h3>Galeria fotos</h3>
-				<p>O estado Atual que Estamos</p>
+				<p>Algumas de nossas Atividades</p>
 			</div>
 			<div class="row">
 				<figure class="effect-chico">						

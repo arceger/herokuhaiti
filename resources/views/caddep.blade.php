@@ -78,6 +78,29 @@
                             </select>
                             </div>
                         </div>
+<!-- ADD ESCOLARIDADE/-->
+                        <div class="form-group row">
+                            <label for="escola_atual" class="col-md-4 col-form-label text-md-right">{{ __('Escola Atual') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="escola_atual" type="text" maxlength = "50" class="form-control" name="escola_atual" required autocomplete="escola_atual">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="grau_inst" class="col-md-4 col-form-label text-md-right">{{ __('Grau Instrução') }}</label>
+
+                            <div class="col-md-6">
+                            <select id="grau_inst" name="grau_inst" class="form-control" >
+                                 <option value="nao informado" selected >Selecione</option>
+                                 <option value="Fundamental">Fundamental</option>
+                                 <option value="Medio">Medio</option>
+                                 <option value="Superior">Superior</option>
+                                 <option value="Pos Graduado">Pos Graduado</option>
+                                 
+                            </select>
+                            </div>
+
                     
 
                         <div class="form-group row mb-0">
