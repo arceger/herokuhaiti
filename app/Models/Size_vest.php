@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Size_vest extends Model
 {
+
+    protected $fillable = ['id','altura','cintura','busto','calcado'];
     use HasFactory;
 }

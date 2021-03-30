@@ -87,7 +87,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                          <div class="form-group row">
                             <label for="grau_inst" class="col-md-4 col-form-label text-md-right">{{ __('Grau Instrução') }}</label>
 
                             <div class="col-md-6">
@@ -96,20 +96,75 @@
                                  <option value="Fundamental">Fundamental</option>
                                  <option value="Medio">Medio</option>
                                  <option value="Superior">Superior</option>
-                                 <option value="Pos Graduado">Pos Graduado</option>
-                                 
+                                 <option value="Pos Graduado">Pos Graduado</option>   
                             </select>
-                            </div>
+                            </div> 
                            
-                    
+                            <div class="form-group row">
+                            <label for="vacinas_st" class="col-md-4 col-form-label text-md-right">{{ __('Estatus Vacinação') }}</label>
 
-                        <div class="form-group row mb-0">
+                            <div class="col-md-6">
+                                <input id="vacinas_st" type="text" maxlength = "50" class="form-control" name="vacinas_st" required autocomplete="vacinas_st">
+                            </div>
+                            </div>
+                    
+                            <div class="form-group row">
+                            <label for="vacinas_brief" class="col-md-4 col-form-label text-md-right">{{ __('Obs. Sobre Vacinas') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="vacinas_brief" type="text" maxlength = "50" class="form-control" name="vacinas_brief" required autocomplete="vacinas_brief">
+                            </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                            <label for="alergias" class="col-md-4 col-form-label text-md-right">{{ __('Algum tipo Alergia ?') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="alergias" type="text" maxlength = "50" class="form-control" name="alergias" required autocomplete="alergias">
+                            </div>
+                            </div>
+
+                            <div class="form-group row">
+                            <label for="altura" class="col-md-4 col-form-label text-md-right">{{ __('Altura') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="altura" type="tel" maxlength = "02" class="form-control" name="altura" required autocomplete="altura">
+                            </div>
+                            </div>
+
+                            <div class="form-group row">
+                            <label for="cintura" class="col-md-4 col-form-label text-md-right">{{ __('Cintura') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="cintura" type="tel" maxlength = "02" class="form-control" name="cintura" required autocomplete="cintura">
+                            </div>
+                            </div>
+
+                            <div class="form-group row">
+                            <label for="busto" class="col-md-4 col-form-label text-md-right">{{ __('Manequin') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="busto" type="tel" maxlength = "02" class="form-control" name="busto" required autocomplete="busto">
+                            </div>
+                            </div>
+
+                            <div class="form-group row">
+                            <label for="calcado" class="col-md-4 col-form-label text-md-right">{{ __('Calçado') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="calcado" type="tel" maxlength = "02" class="form-control" name="calcado" required autocomplete="calcado">
+                            </div>
+                            </div>
+
+
+                            <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Cadastrar') }}
                                 </button>
-                            </div>
-                        </div>
+                             </div>
+                         </div>
                     </form>
                 <!--/div-->
             <!--/div-->

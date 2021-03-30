@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Dependentes;
 use App\Models\Escolaridade;
+use App\Models\Medical;
+use App\Models\Size_vest;
 
 class CadastrarDepend extends Controller
 {
@@ -16,10 +18,6 @@ class CadastrarDepend extends Controller
     }
 
     public function store (Request $request) {
-
-
-        
-
 
         Dependentes::create([
         'nome' => $request->nome,
@@ -34,6 +32,21 @@ class CadastrarDepend extends Controller
             'grau_inst' => $request -> grau_inst,
             'escola_atual'=> $request ->escola_atual,
         ]);
+        
+        Medical::create([
+        'email' => $request->email,
+        'vacinas_st' => $request -> vacinas_st,
+        'vacinas_brief' => $request -> vacinas_brief,
+        'alergias' => $request -> alergias,
+        ]);
+
+        Size_vest::create([
+         'altura' => $request -> altura,
+         'cintura' => $request -> cintura,
+         'busto' => $request -> busto,
+         'calcado' => $request -> calcado,
+        ]);
+       
 
         return "DEPENDENTE CADASTRADO COM SUCESSO";
 
