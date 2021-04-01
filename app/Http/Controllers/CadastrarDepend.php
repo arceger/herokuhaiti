@@ -48,7 +48,7 @@ class CadastrarDepend extends Controller
         ]);
        
 
-        return "DEPENDENTE CADASTRADO COM SUCESSO";
+        return view ('index2');
 
        
     }
