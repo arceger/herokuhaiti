@@ -22,7 +22,7 @@
                     @auth
                         <a href="{{ url('/welcome1') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</a>
 
-                        <a href="{{ route('caddep') }}" class="text-sm text-gray-700 underline">Mais Dependente</a>
+                        <a href="{{ url('/caddep') }}" class="text-sm text-gray-700 underline">Mais Dependente</a>
                     @else
                        
 

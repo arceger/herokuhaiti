@@ -108,26 +108,35 @@
                                 <label for="vacinas_st" class="col-md-4 col-form-label text-md-right">{{ __('Estatus Vacinação') }}</label>
 
                               <div class="col-md-6">
-                                 <input id="vacinas_st" type="text" maxlength = "50" class="form-control" name="vacinas_st" required autocomplete="vacinas_st">
+                              <select id="vacinas_st" name="vacinas_st" class="form-control" >
+                                 <option value="nao informado" selected >Selecione</option>
+                                 <option value="completo">Completo</option>
+                                 <option value="pendente">Pendente</option> 
+                               </select>
                               </div>
                             </div>
                     
-                            <div class="form-group row">
-                              <label for="vacinas_brief" class="col-md-4 col-form-label text-md-right">{{ __('Obs. Sobre Vacinas') }}</label>
-
-                              <div class="col-md-6">
-                                <input id="vacinas_brief" type="text" maxlength = "50" class="form-control" name="vacinas_brief" required autocomplete="vacinas_brief">
-                              </div>
-                            </div>
-
 
                             <div class="form-group row">
                                <label for="alergias" class="col-md-4 col-form-label text-md-right">{{ __('Algum tipo Alergia ?') }}</label>
 
                                <div class="col-md-6">
-                                 <input id="alergias" type="text" maxlength = "50" class="form-control" name="alergias" required autocomplete="alergias">
+                               <select id="alergias" name="alergias" class="form-control" >
+                                 <option value="nao sabe" selected >Selecione</option>
+                                 <option value="sim">Sim</option>
+                                 <option value="nao">Nao</option> 
+                               </select>
                                </div>
                              </div>
+
+                            <div class="form-group row">
+                              <label for="vacinas_brief" class="col-md-4 col-form-label text-md-right">{{ __('Obs. Vacinas/Alergia') }}</label>
+
+                              <div class="col-md-6">
+                                <input id="vacinas_brief" type="text" maxlength = "100" class="form-control" name="vacinas_brief" required autocomplete="vacinas_brief">
+                              </div>
+                            </div>
+
 
                                <div class="card-header" align="center">{{ __('Vestuario Medidas') }}</div>
 
