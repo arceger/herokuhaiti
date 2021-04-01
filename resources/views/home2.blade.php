@@ -20,11 +20,13 @@
                        @if (Route::has('login'))
                      <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</a>
-                    @else
-                        <a href="{{ route('caddep') }}" class="text-sm text-gray-700 underline">Mais Dependente</a>
+                        <a href="{{ url('/welcome1') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</a>
 
-                    @endauth
+                        <a href="{{ route('caddep') }}" class="text-sm text-gray-700 underline">Mais Dependente</a>
+                    @else
+                       
+
+                 @endauth
                 </div>
             @endif    
                               <!--/div-->
