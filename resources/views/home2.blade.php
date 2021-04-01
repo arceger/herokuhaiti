@@ -20,9 +20,24 @@
                        @if (Route::has('login'))
                      <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/welcome1') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</a>
 
-                        <a href="{{ url('/caddep') }}" class="text-sm text-gray-700 underline">Mais Dependente</a>
+                    <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Finalizar Cadastro</a>
+                                </button>
+                            </div>
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                <a href="{{ url('/cadastrar') }}">Mais Dependente</a>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <!--a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</!--a>
+
+                        <a-- href="{{ url('/cadastrar') }}" class="text-sm text-gray-700 underline">Mais Dependente</a-->
                     @else
                        
 
