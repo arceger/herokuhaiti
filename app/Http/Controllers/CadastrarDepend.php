@@ -48,7 +48,7 @@ class CadastrarDepend extends Controller
         ]);
        
 
-        return view ('home2');
+        return view ('caddep');
 
        
     }
