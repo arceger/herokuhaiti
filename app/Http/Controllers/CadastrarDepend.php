@@ -48,7 +48,7 @@ class CadastrarDepend extends Controller
         ]);
        
 
-        return view ('caddep');
+        return view ('caddep',$request);
 
        
     }

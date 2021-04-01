@@ -175,18 +175,18 @@
 
                                <div class="form-group row mb-0">
                                  <div class="col-md-6 offset-md-4">
+                                   <p>
                                    <button type="submit" class="btn btn-primary">
-                                    {{ __('Cadastrar') }}
+                                   <a> {{ __('Cadastrar') }}</a>
                                    </button>
-                                 </div>
-                               </div>
-                               <div class="form-group row mb-0">
-                                 <div class="col-md-6 offset-md-4">
+
+
                                    <button type="url" class="btn btn-primary">
-                                   <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Voltar</a>
+                                   <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Voltar .</a>
                                    </button>
                                  </div>
                                </div>
+
 
                       </form>
          
