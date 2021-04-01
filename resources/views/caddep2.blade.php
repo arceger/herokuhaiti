@@ -79,13 +79,13 @@
                             </div>
                         </div>
                                <!-- ADD ESCOLARIDADE/-->
-                           <!--div class="form-group row">
-                             <label for="escola_atual" class="col-md-4 col-form-label text-md-right">{{ __('Escola Atual') }}</label>
+                        <div class="form-group row">
+                            <label for="escola_atual" class="col-md-4 col-form-label text-md-right">{{ __('Escola Atual') }}</label>
 
-                             <div class="col-md-6">
+                            <div class="col-md-6">
                                 <input id="escola_atual" type="text" maxlength = "50" class="form-control" name="escola_atual" required autocomplete="escola_atual">
-                             </div>
-                           </!--div>
+                            </div>
+                        </div>
 
                           <div class="form-group row">
                             <label for="grau_inst" class="col-md-4 col-form-label text-md-right">{{ __('Grau Instrução') }}</label>
@@ -153,13 +153,13 @@
                             </div>
                             </div>
 
-                            <div-- class="form-group row">
+                            <div class="form-group row">
                             <label for="calcado" class="col-md-4 col-form-label text-md-right">{{ __('Calçado') }}</label>
 
                             <div class="col-md-6">
                                 <input id="calcado" type="tel" maxlength = "02" class="form-control" name="calcado" required autocomplete="calcado">
                             </div>
-                            </div-->
+                            </div>
 
 
                             <div class="form-group row mb-0">
@@ -168,7 +168,7 @@
                                     {{ __('Cadastrar') }}
                                    </button>
                              </div>
-                           </div>
+                          </div>
                     </form>
                 <!--/div-->
             <!--/div-->
