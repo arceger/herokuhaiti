@@ -17,7 +17,6 @@ class CreateDependentesTable extends Migration
             $table->increments('id');
             $table->string('nome');
             $table->string('email');
-            $table->string('sobrenome');
             $table->string('genero');
             $table->string('idade');
             $table->string('tipo_dep'); //filho esposa idoso

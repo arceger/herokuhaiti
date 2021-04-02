@@ -14,10 +14,11 @@ class CreateGruposTable extends Migration
     public function up()
     {
         Schema::create('grupos', function (Blueprint $table) {
-            $table->id();
+            $table->string('id_usr')->unique();
             $table->string('categoria'); //auxiliado auxiliador
             $table->string('email');
             $table->string('nome');
+            $table->foreign('categoria')->references('papel')->on('associado')->onDelete('cascade');
             $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
            
         });
