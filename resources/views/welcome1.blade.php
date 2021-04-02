@@ -117,7 +117,7 @@
 	</div><!--/#slider-->
 
 	<div id="WAButton"> 
-	   <a href="https://wa.me/11954334455?text=Ola%20Gerson%20Estou%20entrando%20em%20contato%20pelo%20site" style="text-decoration: none;" target="_blank">
+	   <a href="https://wa.me/554788075729?text=Ola%20Gerson%20Estou%20entrando%20em%20contato%20pelo%20site" style="text-decoration: none;" target="_blank">
 		 <img src="img/Whats.png" width="50" height="50"/>
 
 		Deixe sua Opinião!!
