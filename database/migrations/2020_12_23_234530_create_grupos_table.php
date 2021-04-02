@@ -18,7 +18,6 @@ class CreateGruposTable extends Migration
             $table->string('categoria'); //auxiliado auxiliador
             $table->string('email');
             $table->string('nome');
-            $table->foreign('categoria')->references('papel')->on('associado')->onDelete('cascade');
             $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
            
         });
