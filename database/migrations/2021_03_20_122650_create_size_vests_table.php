@@ -14,7 +14,7 @@ class CreateSizeVestsTable extends Migration
     public function up()
     {
         Schema::create('size_vests', function (Blueprint $table) {
-            $table->string('id_usr')->unique();
+            $table->id('id_usr')->unique();
             $table->string('peso');
             $table->string('altura'); //aproximada
             $table->string('cintura');
