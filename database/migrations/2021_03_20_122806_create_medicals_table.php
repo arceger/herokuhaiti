@@ -20,8 +20,7 @@ class CreateMedicalsTable extends Migration
             $table->string('tipo_sang');
             $table->string('alergias');
             $table->string('email');
-            $table->foreign('id_usr')->references('id')->on('dependentes')->onDelete('cascade');
-            $table->foreign('id_usr')->references('id')->on('associado')->onDelete('cascade');
+            $table->foreign('id_usr')->references('id')->on('dependentes','associado')->onDelete('cascade');
             $table->timestamps();
         });
     }

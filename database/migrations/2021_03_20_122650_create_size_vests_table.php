@@ -20,8 +20,7 @@ class CreateSizeVestsTable extends Migration
             $table->string('cintura');
             $table->string('busto');//manequin
             $table->string('calcado');
-            $table->foreign('id_usr')->references('id')->on('dependentes')->onDelete('cascade');
-            $table->foreign('id_usr')->references('id')->on('associado')->onDelete('cascade');
+            $table->foreign('id_usr')->references('id')->on('dependentes','associado')->onDelete('cascade');
             $table->timestamps();
         });
     }

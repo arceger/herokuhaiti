@@ -18,8 +18,7 @@ class CreateEscolaridadesTable extends Migration
             $table->string('comments');
             $table->string('escola_atual');
             $table->string('grau_inst');//medio basico superior
-            $table->foreign('id_usr')->references('id')->on('dependentes')->onDelete('cascade');
-            $table->foreign('id_usr')->references('id')->on('associado')->onDelete('cascade');
+            $table->foreign('id_usr')->references('id')->on('dependentes','associado')->onDelete('cascade');
             $table->timestamps();
         });
     }
