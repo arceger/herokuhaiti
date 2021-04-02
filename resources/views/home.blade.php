@@ -7,6 +7,16 @@
             <!--div class="card"-->
                 <!--div class="card-header">{{ __('Dashboard') }}</!--div-->
 
+                <div id="WAButton"> 
+	   <a href="https://wa.me/11954334455?text=Ola%20Gerson%20Estou%20entrando%20em%20contato%20pelo%20site" style="text-decoration: none;" target="_blank">
+		 <img src="img/Whats.png" width="50" height="50"/>
+
+		Estou com Duvida!!
+       </a>
+     </div>
+
+
+
                   <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
