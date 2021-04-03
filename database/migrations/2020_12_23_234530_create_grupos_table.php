@@ -19,7 +19,7 @@ class CreateGruposTable extends Migration
             $table->string('email')->unique();
             $table->string('nome');
             $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
-           
+            $table->timestamps();
         });
     }
 
