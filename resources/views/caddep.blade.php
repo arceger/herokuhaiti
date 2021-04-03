@@ -109,6 +109,14 @@
                              </div> 
                             </div> 
 
+                            <div class="form-group row">
+                             <label for="comments" class="col-md-4 col-form-label text-md-right">{{ __('Descrição Escolar') }}</label>
+
+                             <div class="col-md-6">
+                                <input id="comments" type="text" maxlength = "100" class="form-control" name="comments" required autocomplete="comments">
+                             </div>
+                           </div>
+
                           
 
                             <div class="card-header" align="center">{{ __('Saude') }}</div>
