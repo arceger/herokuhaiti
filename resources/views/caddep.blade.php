@@ -45,7 +45,9 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="hidden"  class="form-control" name="email" value = "{{$email}}">
-                             
+                               
+                                <input id="id_usr" type="hidden" class="form-control"  value = "{{$id}}" >
+                            
 
                             </div>
                         </div>
@@ -108,9 +110,7 @@
                              </div> 
                             </div> 
 
-                            <div class="col-md-6">
-                                <input id="id_usr" type="hidden" value = "{{$id}}" class="form-control" name="id_usr" >
-                            </div>
+                          
 
                             <div class="card-header" align="center">{{ __('Saude') }}</div>
                            
