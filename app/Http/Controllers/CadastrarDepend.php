@@ -44,6 +44,7 @@ class CadastrarDepend extends Controller
          'altura' => $request -> altura,
          'cintura' => $request -> cintura,
          'busto' => $request -> busto,
+         'peso' => $request -> peso,
          'calcado' => $request -> calcado,
         ]);
        

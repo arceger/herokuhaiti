@@ -166,6 +166,14 @@
                                </div>
 
                                <div class="form-group row">
+                                 <label for="peso" class="col-md-4 col-form-label text-md-right">{{ __('Peso') }}</label>
+
+                                 <div class="col-md-6">
+                                    <input id="peso" type="tel" maxlength = "02" class="form-control" name="peso" required autocomplete="peso">
+                                  </div>
+                               </div>
+
+                               <div class="form-group row">
                                  <label for="busto" class="col-md-4 col-form-label text-md-right">{{ __('Manequin') }}</label>
 
                                    <div class="col-md-6">
