@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Associado;
+use App\Models\Categoria;
 
 class CadastrarAssociado extends Controller
 {
