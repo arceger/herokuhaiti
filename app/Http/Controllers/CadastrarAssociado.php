@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Associado;
-use App\Models\Grupos;
+use App\Models\Grupo;
 
 class CadastrarAssociado extends Controller
 {
