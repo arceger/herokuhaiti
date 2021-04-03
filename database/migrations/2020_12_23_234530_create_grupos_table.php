@@ -14,9 +14,9 @@ class CreateGruposTable extends Migration
     public function up()
     {
         Schema::create('grupos', function (Blueprint $table) {
-            $table->string('id_usr')->unique();
-            $table->string('categoria'); //auxiliado auxiliador
-            $table->string('email');
+            $table->increments('id');
+            $table->string('categoria'); //usuario ou administrador
+            $table->string('email')->unique();
             $table->string('nome');
             $table->foreign('email')->references('email')->on('associado')->onDelete('cascade');
            

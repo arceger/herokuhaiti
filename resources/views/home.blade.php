@@ -150,9 +150,7 @@
                             <div class="col-md-6">
                                 <input id="categoria" type="hidden" value = "usuario" class="form-control" name="categoria" >
                             </div>
-                            <div class="col-md-6">
-                                <input id="id_usr" type="hidden" value = "{{$id}}" class="form-control" name="id_usr" >
-                            </div>
+                           
 
                         </div>
                     
