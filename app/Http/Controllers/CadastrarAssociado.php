@@ -35,7 +35,7 @@ class CadastrarAssociado extends Controller
         'description' => $request -> description,
         ]);
 
-        Categoria::create([
+        Grupos::create([
             'id_usr' => $request -> id,
             'categoria' => $request -> categoria,
             'email' => $request -> email,
