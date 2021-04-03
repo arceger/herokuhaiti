@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Size_vest extends Model
 {
 
-    protected $fillable = ['id','altura','cintura','busto','calcado'];
+    protected $fillable = ['id_usr','peso','altura','cintura','busto','calcado'];
     use HasFactory;
 }

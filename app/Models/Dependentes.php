@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Dependentes extends Model
 {
    
-    protected $fillable = ['id','nome','sobrenome','email','genero','idade','tipo_dep'];
+    protected $fillable = ['id','nome','email','genero','idade','tipo_dep'];
 
     use HasFactory;
 }
