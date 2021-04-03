@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Grupo extends Model
 {
-    protected $fillable = ['id_usr','categoria','email','nome'];
+    protected $fillable = ['id','categoria','email','nome'];
     use HasFactory;
 }

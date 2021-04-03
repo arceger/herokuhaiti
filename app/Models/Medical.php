@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Medical extends Model
 {
-    protected $fillable = ['id_usr','vacinas_st','vacinas_brief','tipo_sang','alergias','email'];
+    protected $fillable = ['id','vacinas_st','vacinas_brief','tipo_sang','alergias','email'];
     
     use HasFactory;
 }
