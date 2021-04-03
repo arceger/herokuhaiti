@@ -45,8 +45,7 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="hidden"  class="form-control" name="email" value = "{{$email}}">
-                               
-                                <input id="id_usr" type="hidden" class="form-control"  value = "{{$id}}" >
+                              
                             
 
                             </div>
