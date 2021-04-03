@@ -9,7 +9,7 @@
 
                 <div id="WAButton"> 
 	   <a href="https://wa.me/554788075729?text=Ola%20Gerson%20Estou%20entrando%20em%20contato%20pelo%20site" style="text-decoration: none;" target="_blank">
-       <img src="https://i.ibb.co/N9P0K9H/239px-Whats-App-svg.png" width="50" height="50"/>
+       <img src="img/whats.png" width="50" height="50"/>
 
 		Estou com Duvida!!
        </a>
