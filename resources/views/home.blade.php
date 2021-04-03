@@ -47,10 +47,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="est_civil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
+                            <label for="est_civel" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
 
                             <div class="col-md-6">
-                            <select id="est_civil" name="est_civil" class="form-control" >
+                            <select id="est_civel" name="est_civel" class="form-control" >
                                  <option value="nao informado" selected >Selecione</option>
                                  <option value="conjuge">Casado</option>
                                  <option value="filho">Solteiro</option>
