@@ -47,16 +47,16 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="ecivil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
+                            <label for="est_civil" class="col-md-4 col-form-label text-md-right">{{ __('Estado Civil') }}</label>
 
                             <div class="col-md-6">
-                            <select id="sobrenome" name="sobrenome" class="form-control" >
+                            <select id="est_civil" name="est_civil" class="form-control" >
                                  <option value="nao informado" selected >Selecione</option>
                                  <option value="conjuge">Casado</option>
                                  <option value="filho">Solteiro</option>
                                 
                             </select>
-                                @error('sobrenome')
+                                @error('est_civil')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -148,7 +148,7 @@
                             <!--label-- for="papel" class="col-md-4 col-form-label text-md-right">{{ __('Papel') }}</!--label-->
 
                             <div class="col-md-6">
-                                <input id="papel" type="hidden" value = "usuario" class="form-control" name="papel" >
+                                <input id="categoria" type="hidden" value = "usuario" class="form-control" name="categoria" >
                             </div>
                         </div>
                     

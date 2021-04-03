@@ -24,7 +24,7 @@ class CadastrarAssociado extends Controller
 
         Associado::create([
         'nome' => $request->nome,
-        'sobrenome' => $request->sobrenome,
+        'est_civel' => $request->est_civel,
         'endereco' => $request->endereco,
         'telefone' => $request->telefone,
         'email' => $request->email,
@@ -32,8 +32,14 @@ class CadastrarAssociado extends Controller
         'cidade' => $request ->cidade,
         'estado' => $request -> estado,
         'description' => $request -> description,
-        'papel' => $request -> papel,
         ]);
+
+        Categoria::create([
+            'id_usr' => $request -> id_usr,
+            'categoria' => $request -> categoria,
+            'email' => $request -> email,
+            'nome' => $request -> nome,
+           ]);
 
         return view ('caddep',$request);
 

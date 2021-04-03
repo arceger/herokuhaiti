@@ -16,6 +16,7 @@ class CreateAssociadoTable extends Migration
         Schema::create('associado', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome');
+            $table->string('est_civil');
             $table->string('endereco');
             $table->string('telefone');
             $table->string('email')->unique();
