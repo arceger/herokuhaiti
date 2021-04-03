@@ -23,7 +23,6 @@ class CreateAssociadoTable extends Migration
             $table->string('cidade');
             $table->string('estado');
             $table->string('description');
-            $table->string('papel');
             $table->timestamps();
         });
     }
