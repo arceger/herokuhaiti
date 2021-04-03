@@ -28,10 +28,10 @@ class CadastrarDepend extends Controller
         ]);
 
         Escolaridade::create([
-            'comments' => $request->comments,
-            'grau_inst' => $request -> grau_inst,
-            'escola_atual' => $request ->escola_atual,
 
+            'escola_atual' => $request->escola_atual,
+            'comments' => $request->comments,
+            'grau_inst' => $request->grau_inst,
         ]);
         
         Medical::create([
