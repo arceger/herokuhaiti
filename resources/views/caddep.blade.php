@@ -154,8 +154,16 @@
                               </div>
                             </div>
 
+                            <div class="form-group row">
+                              <label for="tipo_sang" class="col-md-4 col-form-label text-md-right">{{ __('Grupo Sanguineo:') }}</label>
 
-                               <div class="card-header" align="center">{{ __('Vestuario Medidas') }}</div>
+                              <div class="col-md-6">
+                                <input id="tipo_sang" type="text" maxlength = "50" class="form-control" name="tipo_sang" required autocomplete="tipo_sang">
+                              </div>
+                            </div>
+
+
+                               <div class="card-header" align="center">{{ __('Vestuario Medidas') }}</div> 
 
                               <div class="form-group row">
                                  <label for="altura" class="col-md-4 col-form-label text-md-right">{{ __('Altura') }}</label>
