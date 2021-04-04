@@ -23,7 +23,7 @@
 
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            <button type="button" style="background-color: #b4b7b7">
                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Finalizar Cadastro</a>
                                 </button>
                             </div>
@@ -31,6 +31,8 @@
                                 <button type="submit" class="btn btn-primary">
                                 <a href="{{ url('/cadastrar') }}">{{ __('Cadastrar') }}</a>
                                 </button>
+
+                                <button type="button" style="background-color: #b4b7b7">Load</button>
                             </!--div-->
 
                         </div>
