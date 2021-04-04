@@ -12,16 +12,10 @@ class CadastrarAssociado extends Controller
     public function  create(){
 
         return view ('cadastrar');
-
      
-       
     }
 
     public function store (Request $request) {
-
-
-        
-
 
         Associado::create([
         'nome' => $request->nome,
@@ -43,11 +37,17 @@ class CadastrarAssociado extends Controller
 
         return view ('caddep',$request);
       
-        public function show($id){
-
-            $associado = Associado::findOrFail($id);
-            return view('reads.show',['associado'=>$associado]) ;
-        }
+       
              
     }
+
+    public function show($id){
+
+        $associado = Associado::findOrFail($id);
+        return view('reads.show',['associado'=>$associado]) ;
+    }
+
+
+
+
 }
