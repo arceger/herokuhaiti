@@ -38,6 +38,7 @@ class CadastrarDepend extends Controller
         'email' => $request->email,
         'vacinas_st' => $request -> vacinas_st,
         'vacinas_brief' => $request -> vacinas_brief,
+        'tipo_sang' => $request -> tipo_sang,
         'alergias' => $request -> alergias,
         ]);
 
