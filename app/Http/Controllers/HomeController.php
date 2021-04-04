@@ -28,6 +28,11 @@ class HomeController extends Controller
         
         return view('home');
     }
+
+    public function index2()
+    {
+        return view('home2');
+    }
 /*$
     public function index3()
     {
@@ -37,10 +42,7 @@ class HomeController extends Controller
 
   
 
-    public function index2()
-    {
-        return view('home2');
-    }
+  
 
    */
 
