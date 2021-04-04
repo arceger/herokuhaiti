@@ -31,9 +31,15 @@ class HomeController extends Controller
 
     public function adm()
     {
+       if(auth()->user()->email = 'arceger@hotmail.com'){
+
         return view('admhome');
+       }
+        
+        
     }
-/*$
+/*
+{{Auth::user()->name}} 
     public function index3()
     {
         return view('cadastrar');

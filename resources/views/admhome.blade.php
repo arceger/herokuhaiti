@@ -31,16 +31,7 @@
                             <a href="{{ url('/show') }}" class="next">Pesquisar &raquo;</a>
                                 </button>
                             </div>
-                            <!--div-- class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                <a href="{{ url('/cadastrar') }}">{{ __('Cadastrar') }}</a>
-                                </button>
-<a href="#" class="previous">&laquo; Previous</a>
-<a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="next">Finalizar Cadastro &raquo;</a>
-
-<a href="#" class="previous round">&#8249;</a>
-<a href="#" class="next round">&#8250;</a>
-                            </!--div-->
+ 
 
                         </div>
 
