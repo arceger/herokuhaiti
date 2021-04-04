@@ -52,8 +52,8 @@
                             <div class="col-md-6">
                             <select id="est_civel" name="est_civel" class="form-control" >
                                  <option value="nao informado" selected >Selecione</option>
-                                 <option value="conjuge">Casado</option>
-                                 <option value="filho">Solteiro</option>
+                                 <option value="casado">Casado</option>
+                                 <option value="solteiro">Solteiro</option>
                                 
                             </select>
                                 @error('est_civil')
