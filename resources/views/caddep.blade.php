@@ -20,11 +20,15 @@
                         </div>
                     @endif
                       <div class="card">
-                          <div class="card-header" align="center">{{ __('Agora seus Dependentes') }}</div>
+                          <div class="card-header" align="center">{{ __('Seus Dependentes') }}</div>
 
                        <div class="card-body">
                        <form method="POST" action="{{ route('cadastrar_dep') }}">
                         @csrf
+
+                        <button type="url" class="btn btn-primary">
+                                   <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Sem Mais Depend</a>
+                                   </button>
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome do Dependente') }}</label>
@@ -214,9 +218,7 @@
                                    </button>
 
 
-                                   <button type="url" class="btn btn-primary">
-                                   <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Voltar .</a>
-                                   </button>
+                                   
                                  </div>
                                </div>
 
