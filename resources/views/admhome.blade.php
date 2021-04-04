@@ -35,24 +35,7 @@
 
                         </div>
 
-                        <!--a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="text-sm style="margin-top: 15px; margem-direita: 10px;">Finalizar Cadastro</a>
-                          
-
-                         <div class="col-md-6 offset-md-4">
-                                   <p>
-                                   <button type="submit" class="btn btn-primary">
-                                   <a> {{ __('Cadastrar') }}</a>
-
-                                   <a href="{{url('transaction/{transactions}/edit ) }}" class="btn btn-primary" style="margin-top: 15px; margem-direita: 10px;" >Edit Record</a>
-
-                                   href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}"
-                                   </button>
-
-
-                                   
-                                 </div>
-
-                        <a-- href="{{ url('/cadastrar') }}" class="text-sm text-gray-700 underline">Mais Dependente</a-->
+                      
                     @else
                        
 
