@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+
+<link href="css/style.css" rel="stylesheet" />
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -23,16 +26,20 @@
 
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                            <button type="button" style="background-color: #b4b7b7;color: red">
-                               <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Finalizar Cadastro</a>
+                            <button type="button" style="background-color: #b4b7b7">
+                            <a href="{{ url('/cadastrar') }}" class="previous">&laquo; Cadastrar</a>
+                            <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="next">Finalizar Cadastro &raquo;</a>
                                 </button>
                             </div>
                             <!--div-- class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                 <a href="{{ url('/cadastrar') }}">{{ __('Cadastrar') }}</a>
                                 </button>
+<a href="#" class="previous">&laquo; Previous</a>
+<a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="next">Finalizar Cadastro &raquo;</a>
 
-                                <button type="button" style="background-color: #b4b7b7">Load</button>
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
                             </!--div-->
 
                         </div>
