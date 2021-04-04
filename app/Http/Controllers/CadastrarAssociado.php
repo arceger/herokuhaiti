@@ -42,7 +42,12 @@ class CadastrarAssociado extends Controller
            ]);
 
         return view ('caddep',$request);
+      
+        public function show($id){
 
+            $associado = Associado::findOrFail($id);
+            return view('reads.show',['associado'=>$associado]) ;
+        }
              
     }
 }
