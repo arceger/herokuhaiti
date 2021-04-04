@@ -35,4 +35,4 @@ Route::post('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'stor
 Route::get('/show',[ App\Http\Controllers\CadastrarAssociado::class,'show']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home2');
+Route::get('/admhome', [App\Http\Controllers\HomeController::class, 'adm'])->name('admhome');

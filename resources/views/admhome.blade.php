@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div class="card-header" align="center">{{ __('Finalizar o cadastro ou tem mais Dependentes?') }}</div>
+                      <div class="card-header" align="center">{{ __('Gerenciamento de Usuarios') }}</div>
 
                        <div-- class="card-body">
                        @if (Route::has('login'))
@@ -24,18 +24,29 @@
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Finalizar Cadastro</a>
+                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">{{ __('Finalizar') }}</a>
                                 </button>
                             </div>
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                <a href="{{ url('/cadastrar') }}">Mais Dependente</a>
+                                <a href="{{ url('/cadastrar') }}">{{ __('Cadastrar') }}</a>
                                 </button>
                             </div>
 
                         </div>
 
                         <!--a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}" class="text-sm text-gray-700 underline">Finalizar Cadastro</!--a>
+                          
+
+                         <div class="col-md-6 offset-md-4">
+                                   <p>
+                                   <button type="submit" class="btn btn-primary">
+                                   <a> {{ __('Cadastrar') }}</a>
+                                   </button>
+
+
+                                   
+                                 </div>
 
                         <a-- href="{{ url('/cadastrar') }}" class="text-sm text-gray-700 underline">Mais Dependente</a-->
                     @else

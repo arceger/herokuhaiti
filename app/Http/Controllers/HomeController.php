@@ -29,9 +29,9 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function index2()
+    public function adm()
     {
-        return view('home2');
+        return view('admhome');
     }
 /*$
     public function index3()
