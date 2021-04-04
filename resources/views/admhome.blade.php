@@ -23,7 +23,7 @@
 
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                            <button type="button" style="background-color: #b4b7b7">
+                            <button type="button" style="background-color: #b4b7b7;color: red">
                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">Finalizar Cadastro</a>
                                 </button>
                             </div>
