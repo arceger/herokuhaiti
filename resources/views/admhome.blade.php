@@ -24,7 +24,7 @@
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                <a href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}">{{ __('Finalizar') }}</a>
+                                <a >{{ __('Finalizar') }}</a>
                                 </button>
                             </div>
                             <div class="col-md-6 offset-md-4">
@@ -42,6 +42,8 @@
                                    <p>
                                    <button type="submit" class="btn btn-primary">
                                    <a> {{ __('Cadastrar') }}</a>
+
+                                   href="{{ url('https://hidden-harbor-63058.herokuapp.com/') }}"
                                    </button>
 
 
