@@ -43,8 +43,8 @@ class CadastrarAssociado extends Controller
 
     public function show(){
 
-    
-        return view('show') ;
+       return Associados::all();
+       // return view('show') ;
     }
 
 
