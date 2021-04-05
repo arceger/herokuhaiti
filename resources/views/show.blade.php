@@ -4,15 +4,37 @@
 <div class="container">
 
 <h3> lista Associados</he>
-    <!--div-- class="row justify-content-center">
+    <div class="row justify-content-center">
         <div class="col-md-8">
-                <div class="form-group row">
+
+<table border ="1">
+
+<tr>
+<td>Nome</td>
+<td>E-mail</td>
+<td>Telefone</td>
+</tr>
+@foreach($associados as $associado)
+
+<tr>
+<td>{{$name}}</td>
+<td>{{$email}}</td>
+<td>{{$telefone}}</td>
+</tr>
+
+</table>
+
+
+
+
+
+                <!--div class="form-group row">
                             <label for="id" maxlength="25" class="col-md-4 col-form-label text-md-right"></label>
 
                             <div class="col-md-6">
                                 <input id="id" type="text" class="form-control" name="id" value = "" required autocomplete="id">
                             </div>
-                        </div>
+                        </!--div>
 
                         <div class="form-group row">
                             <label for="nome" maxlength="25" class="col-md-4 col-form-label text-md-right"></label>
@@ -22,14 +44,14 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div-- class="form-group row">
                             <label for="email" maxlength="25" class="col-md-4 col-form-label text-md-right"></label>
 
                             <div class="col-md-6">
                                 <input id="email" type="text" class="form-control" name="email" value= "" required autocomplete="email">
                             </div>
-                        </div>
+                        </div-->
         </div>
-    </!--div-->
+    </div>
 </div>
 @endsection
