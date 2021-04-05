@@ -40,7 +40,7 @@ class CadastrarAssociado extends Controller
        
              
     }
-
+/*
     public function show($id){
 
         $associado = Associado::findOrFail($id);
@@ -48,6 +48,6 @@ class CadastrarAssociado extends Controller
     }
 
 
-
+*/
 
 }
