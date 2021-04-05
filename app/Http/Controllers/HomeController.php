@@ -24,8 +24,10 @@ class HomeController extends Controller
     public function index()
 
     {
-
-        
+        if(auth()->user()->email = 'arceger@hotmail.com'){
+            return view('admhome');
+        }
+    
         return view('home');
     }
 
