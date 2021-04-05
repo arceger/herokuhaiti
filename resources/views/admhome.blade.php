@@ -27,7 +27,7 @@
                     <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                             <button type="button" style="background-color: #b4b7b7">
-                            <a href="{{ url('/cadastrar') }}" class="next">&laquo; Cadastrar</a>
+                            <a href="{{ url('/home') }}" class="next">&laquo; Cadastrar</a>
                             <a href="{{ url('/show') }}" class="next">Pesquisar &raquo;</a>
                                 </button>
                             </div>

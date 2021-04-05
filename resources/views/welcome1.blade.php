@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="img/logo.jpeg"/>
+	<link rel="shortcut icon" href="favicon.ico"/>
 
     
 
