@@ -26,11 +26,6 @@
 </tr>
 @foreach($associado as $associado)
 
-<tr>
-<td>{{$associado['nome']}}</td>
-<td>{{$associado['email']}}</td>
-<td>{{$associado['telefone']}}</td>
-</tr>
 
 </table>
                 </div>

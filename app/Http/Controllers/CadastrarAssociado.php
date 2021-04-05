@@ -43,8 +43,8 @@ class CadastrarAssociado extends Controller
 
     public function show(){
 
-       $data = Associado::all();
-        return view('show',['associado'=>$data]) ;
+    return Associado::all();
+       // return view('show',['associado'=>$data]) ;
     }
 
 
