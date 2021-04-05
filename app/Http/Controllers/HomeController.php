@@ -33,15 +33,15 @@ class HomeController extends Controller
         
     }
 
-/*
 
-    public function adm()
+
+    public function show()
     {
-       if(auth()->user()->email = 'arceger@hotmail.com'){
+      
 
-        return view('admhome');
-       }
-        */
+        return view('show');
+       
+        
         
     }
 /*
@@ -57,6 +57,6 @@ class HomeController extends Controller
   
 
    */
-
+}
 
 
