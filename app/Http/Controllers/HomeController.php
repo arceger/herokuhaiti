@@ -24,7 +24,7 @@ class HomeController extends Controller
     public function index()
 
     {
-        if('arceger@hotmail.com' = auth()->user()->email ){
+        if(auth()->user()->email == 'arceger@hotmail.com'){
             return view('admhome');
         }
     else{
