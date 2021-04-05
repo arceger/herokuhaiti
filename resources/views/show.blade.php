@@ -24,7 +24,7 @@
 <td>E-mail</td>
 <td>Telefone</td>
 </tr>
-@foreach($associado as $associado)
+@foreach($associados as $associados)
 
 <tr>
 <td>{{$associado['nome']}}</td>
