@@ -27,9 +27,13 @@ class HomeController extends Controller
         if(auth()->user()->email = 'arceger@hotmail.com'){
             return view('admhome');
         }
-    
+    else{
         return view('home');
     }
+        
+    }
+
+/*
 
     public function adm()
     {
@@ -37,7 +41,7 @@ class HomeController extends Controller
 
         return view('admhome');
        }
-        
+        */
         
     }
 /*
@@ -55,4 +59,4 @@ class HomeController extends Controller
    */
 
 
-}
+
