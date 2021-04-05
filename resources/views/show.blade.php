@@ -18,7 +18,7 @@
                             <label for="nome" maxlength="25" class="col-md-4 col-form-label text-md-right">{{ __('nome') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nome" type="text" class="form-control" value = "{{ $associado ->nome }} "name="nome" required autocomplete="nome">
+                                <input id="nome" type="text" class="form-control" value = "{{  }} "name="nome" required autocomplete="nome">
                             </div>
                         </div>
 
@@ -26,7 +26,7 @@
                             <label for="email" maxlength="25" class="col-md-4 col-form-label text-md-right">{{ __('E mail') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="text" class="form-control" name="email" value= "{{$associado ->email}}" required autocomplete="email">
+                                <input id="email" type="text" class="form-control" name="email" value= "{{ }}" required autocomplete="email">
                             </div>
                         </div>
         </div>
