@@ -2,7 +2,9 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+
+<h3> lista Associados</he>
+    <!--div-- class="row justify-content-center">
         <div class="col-md-8">
                 <div class="form-group row">
                             <label for="id" maxlength="25" class="col-md-4 col-form-label text-md-right">{{ __('id') }}</label>
@@ -28,6 +30,6 @@
                             </div>
                         </div>
         </div>
-    </div>
+    </!--div-->
 </div>
 @endsection

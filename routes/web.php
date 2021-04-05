@@ -32,7 +32,7 @@ Route::post('/caddep', [App\Http\Controllers\CadastrarDepend::class, 'store'])->
 Route::get('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'create']); 
 Route::post('/cadastrar', [App\Http\Controllers\CadastrarAssociado::class, 'store'])->name('cadastrar_usr');
 
-Route::get('/show',[ App\Http\Controllers\CadastrarAssociado::class,'show']);
+Route::get('show',[ App\Http\Controllers\CadastrarAssociado::class,'show']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/admhome', [App\Http\Controllers\HomeController::class, 'adm'])->name('admhome');
