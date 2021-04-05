@@ -40,14 +40,14 @@ class CadastrarAssociado extends Controller
        
              
     }
-/*
-    public function show($id){
 
-        $associado = Associado::findOrFail($id);
-        return view('associados.show',['associado'=>$associado]) ;
+    public function show(){
+
+    
+        return view('show') ;
     }
 
 
-*/
+
 
 }
