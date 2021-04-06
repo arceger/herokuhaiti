@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Associado;
 use App\Models\Grupo;
+use App\Models\Dependentes;
 
 class CadastrarAssociado extends Controller
 {
@@ -43,8 +44,10 @@ class CadastrarAssociado extends Controller
 
     public function show(){
 
-    $data = Associado::all();
-     return view('show',['associados'=>$data]) ;
+   // $data = Associado::all();
+    // return view('show',['associados'=>$data]) ;
+return Dependentes::all();
+
     }
 
 
