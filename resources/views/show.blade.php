@@ -27,9 +27,9 @@
 @foreach($associados as $associado)
 
 <tr>
-<td>{{$dependente['nome']}}</td>
-<td>{{$dependente['email']}}</td>
-<td>{{$dependente['telefone']}}</td>
+<td>{{$associado['nome']}}</td>
+<td>{{$associado['email']}}</td>
+<td>{{$associado['telefone']}}</td>
 </tr>
 @endforeach
 </table>
