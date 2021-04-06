@@ -22,14 +22,14 @@
 <tr>
 <td>Nome</td>
 <td>E-mail</td>
-<td>Telefone</td>
+<td>Idade</td>
 </tr>
-@foreach($associados as $associado)
+@foreach($dependentes as $dependente)
 
 <tr>
 <td>{{$dependente['nome']}}</td>
 <td>{{$dependente['email']}}</td>
-<td>{{$dependente['telefone']}}</td>
+<td>{{$dependente['idade']}}</td>
 </tr>
 @endforeach
 </table>
