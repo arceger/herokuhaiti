@@ -14,10 +14,10 @@
                         </div>
                     @endif
                     <h3 align = "center"> Lista de Associados</he>
-                     <div class="row justify-content-center">
-                     <div-- class="col-md-8">
+                     <!--div class="row justify-content-center"-->
+                     <!--div-- class="col-md-8"-->
 
-                  <table align = "center" border ="1">
+                  <table border ="1" align=center>
 
                   <tr>
                      <td>ID</td>
