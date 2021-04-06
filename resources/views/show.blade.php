@@ -17,7 +17,7 @@
                      <div class="row justify-content-center">
                      <div-- class="col-md-8">
 
-                  <table border ="1">
+                  <table align = "center" border ="1">
 
                   <tr>
                      <td>ID</td>
