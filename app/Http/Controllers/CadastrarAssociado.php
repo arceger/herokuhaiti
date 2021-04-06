@@ -47,7 +47,7 @@ class CadastrarAssociado extends Controller
    // $data = Associado::all();
     // return view('show',['associados'=>$data]) ;
 $data =  Dependentes::all();
-return view ('list',['dependentes'=>$data]);
+return view ('show',['dependentes'=>$data]);
 
     }
 
