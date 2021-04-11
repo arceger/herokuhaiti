@@ -13,6 +13,13 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'google' => [
+        'client_id' => env('536027074498-9u651ci6d3lfh2jntt4511vl3rkovv4e.apps.googleusercontent.com'),
+        'client_secret' => env('tc2X6WFeAAVMbeQGm7xq8ID8'),
+        'redirect' => 'http://hidden-harbor-63058.herokuapp.com/home',
+    ],
+
+
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
