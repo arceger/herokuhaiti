@@ -37,4 +37,23 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+    // Google login
+    public function redirectToGoogle()
+    {
+        return Socialite::driver('google')->redirect();
+    }
+
+    // Google callback
+    public function handleGoogleCallback()
+    {
+        $user = Socialite::driver('google')->user();
+
+        $this->_registerOrLoginUser($user);
+
+        // Return home after login
+        return redirect()->route('home');
+    }
+
+
+
 }
