@@ -14,8 +14,13 @@ return [
     |
     */
     'google' => [
+<<<<<<< HEAD
         'client_id' => env('xxxxxc3tv6hharfm.apps.googleusercontent.com'),
         'client_secret' => env('xxxxxxxxxxxx'),
+=======
+        'client_id' => env(''),
+        'client_secret' => env(''),
+>>>>>>> e37a7420dd1502542affbd537d283e79422e0b60
         'redirect' => 'http://hidden-harbor-63058.herokuapp.com/home',
     ],
 
