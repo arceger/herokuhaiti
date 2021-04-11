@@ -40,12 +40,10 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="{{ url('/home') }}">Home</a></li>
-                        
-                        <li><a href="{{ route('login') }}" >login</a></li>
-                        <li><a href="{{ route('register') }}">Register</a></li> 
-                        <!--li--><a href="login.html">Login</a></li-->                        
-                  </ul>
-              </div>
+                         <li><a href="{{ route('login') }}" >login</a></li>
+                        <li><a href="{{ route('register') }}">Register</a></li>                     
+                    </ul>
+                </div>
             </div>
             <!--/.container--></nav><!--/nav-->		
     </header><!--/header-->	
