@@ -38,11 +38,11 @@
                                                    @enderror
                                                </div>
                                            </div>
-
-         <div class="row mx-gutters-2 mb-4"> 
-          <div class="col-sm-4"> <a href="{{ route('login.google') }}"> <button type="button" class="btn btn-block btn-google"> <i class="fa fa-google mr-2"></i>Google </button> </a> 
-          </div> 
-        </div>
+                                           <div class="or-seperator"><i>OU</i></div> 
+                               <div class="row mx-gutters-2 mb-4">
+                           <div class="col-sm-4"> <a href="{{ route('login.google') }}"> <button type="button" class="btn btn-block btn-google"> <i class="fa fa-google mr-2"></i>Google </button></a> 
+                         </div> 
+                       </div> 
 
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
