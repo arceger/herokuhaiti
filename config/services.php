@@ -14,8 +14,8 @@ return [
     |
     */
     'google' => [
-        'client_id' => env('536027074498-9u651ci6d3lfh2jntt4511vl3rkovv4e.apps.googleusercontent.com'),
-        'client_secret' => env('tc2X6WFeAAVMbeQGm7xq8ID8'),
+        'client_id' => env('1065930047520-3qarg0bhujfintkdcn1hbc3tv6hharfm.apps.googleusercontent.com'),
+        'client_secret' => env('v42SLZ5C2FT3M3Hj0A6KH5M1'),
         'redirect' => 'http://hidden-harbor-63058.herokuapp.com/home',
     ],
 
